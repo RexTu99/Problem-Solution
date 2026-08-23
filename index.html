@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"></head>
+<body>
+<title>提問工具卡</title>
+<style>
+:root{--bg:#0f1419;--panel:#1a2129;--border:#2e3a46;--text:#e8edf2;--muted:#8fa0b0;--accent:#4fc3f7;--accent2:#ffb74d}
+body{background:var(--bg);color:var(--text);font-family:"PingFang TC","Microsoft JhengHei",system-ui,sans-serif;line-height:1.5;margin:0;padding:16px;max-width:520px;margin-inline:auto}
+h1{font-size:1.1rem;color:var(--accent);margin:4px 0 16px;text-align:center;letter-spacing:.05em}
+details{background:var(--panel);border:1px solid var(--border);border-radius:14px;margin-bottom:10px;overflow:hidden}
+summary{padding:15px 16px;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;font-size:1.02rem;font-weight:600}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"›";color:var(--muted);font-size:1.3rem;transition:transform .2s}
+details[open] summary::after{transform:rotate(90deg)}
+.law{margin:0 16px 12px;padding:9px 12px;background:#243447;border-left:3px solid var(--accent2);border-radius:0 8px 8px 0;font-size:.85rem;color:var(--accent2)}
+.st{display:flex;gap:10px;align-items:baseline;padding:7px 16px;font-size:.92rem}
+.st:nth-child(even){background:rgba(255,255,255,.02)}
+.st .v{flex-shrink:0;font-weight:700;color:var(--text);width:4.6em}
+.st .q{color:var(--accent)}
+.st .x{color:var(--muted)}
+.mantra{margin:12px 16px 16px;text-align:center;font-size:.83rem;color:var(--accent2);border:1px dashed var(--border);border-radius:8px;padding:7px}
+.keys{margin-top:16px;text-align:center;font-size:.75rem;color:var(--muted);line-height:1.9}
+.keys b{color:var(--accent);font-weight:600}
+</style>
+<h1>🧭 問對問題 · 五情境</h1>
+<div style="text-align:center;font-size:.78rem;color:var(--muted);margin:-10px 0 14px">⏰ 開口前・下決定前・卡住時——先開一張卡</div>
+
+<details>
+<summary>🌲 問題拆解</summary>
+<div class="law">先問對問題，再解題</div>
+<div class="st"><span class="v">分類</span><span><span class="q">清晰／繁雜／複雜／混沌？</span> <span class="x">人心市場＝複雜→小實驗，別硬分析</span></span></div>
+<div class="st"><span class="v">定義</span><span><span class="q">5W1H 盤事實。這問題本身問對了嗎？</span></span></div>
+<div class="st"><span class="v">拆解</span><span><span class="q">為什麼？×5　有重疊？有遺漏？</span> <span class="x">「X具體指什麼？預設了什麼？」</span></span></div>
+<div class="st"><span class="v">押假說</span><span><span class="q">我的假說？什麼證據能推翻它？</span></span></div>
+<div class="st"><span class="v">反著想</span><span><span class="q">怎樣必敗？然後呢？再然後呢？</span></span></div>
+<div class="mantra">分類 → 定義 → 拆到底 → 押假說 → 反著想</div>
+</details>
+
+<details>
+<summary>🤝 談判說服</summary>
+<div class="law">說服不是講理，是調度焦慮</div>
+<div class="st"><span class="v">讀焦慮</span><span><span class="q">他真正怕什麼？站他位置怎麼看？</span></span></div>
+<div class="st"><span class="v">藏焦慮</span><span><span class="q">我急，是他需要還是我焦慮？</span></span></div>
+<div class="st"><span class="v">謙遜問</span><span><span class="q">我真的不知道答案嗎？</span> <span class="x">先承接，再問「你最在意的是？」</span></span></div>
+<div class="st"><span class="v">挑時機</span><span><span class="q">行動／間接／直接說？</span> <span class="x">時機＞內容</span></span></div>
+<div class="st"><span class="v">讓他贏</span><span><span class="q">怎麼讓他覺得是「他說服了我」？</span></span></div>
+<div class="mantra">讀焦慮 → 藏焦慮 → 謙遜問 → 挑時機 → 讓他贏</div>
+</details>
+
+<details>
+<summary>📊 報告呈現</summary>
+<div class="law">結論先行，理由分層，證據墊底</div>
+<div class="st"><span class="v">結論</span><span><span class="q">對方最關心什麼？我的答案一句話？</span></span></div>
+<div class="st"><span class="v">三點</span><span><span class="q">理由≤3，有重疊？有遺漏？</span></span></div>
+<div class="st"><span class="v">證據</span><span><span class="q">這是事實還是觀點？我怎麼知道的？</span></span></div>
+<div class="st"><span class="v">預答</span><span><span class="q">他會追問什麼？然後呢？</span> <span class="x">5W1H 查完整度</span></span></div>
+<div class="st"><span class="v">行動</span><span><span class="q">為什麼是現在？下一步要他做什麼？</span></span></div>
+<div class="mantra">結論 → 三點 → 事實 → 預答 → 收在行動</div>
+</details>
+
+<details>
+<summary>⚛️ 第一性原理 × 馬斯克演算法</summary>
+<div class="law">拆到最根本，五步順序不可顛倒</div>
+<div class="st"><span class="v">拆到底</span><span><span class="q">不可再拆的事實？哪些只是慣例？從零怎麼設計？</span></span></div>
+<div class="st"><span class="v">質疑</span><span><span class="q">誰提的要求？預設了什麼？</span></span></div>
+<div class="st"><span class="v">刪除</span><span><span class="q">刪掉最壞會怎樣？</span> <span class="x">刪到想加回10%才夠狠</span></span></div>
+<div class="st"><span class="v">簡化</span><span><span class="q">在優化不該存在的東西嗎？矛盾能否兼得？</span></span></div>
+<div class="st"><span class="v">加速</span><span><span class="x">最後才自動化，太早＝機器做白工</span></span></div>
+<div class="mantra">拆到底 → 質疑 → 刪除 → 簡化 → 加速殿後自動化</div>
+</details>
+
+<details>
+<summary>💎 需要 vs 想要</summary>
+<div class="law">要的不是電鑽，是牆上的洞</div>
+<div class="st"><span class="v">聽想要</span><span><span class="q">他說的是解法，還是問題本身？</span></span></div>
+<div class="st"><span class="v">挖需要</span><span><span class="q">為什麼要？拿到之後呢？</span> <span class="x">往下挖兩層</span></span></div>
+<div class="st"><span class="v">三問</span><span><span class="q">為什麼要買？為什麼跟我？為什麼現在？</span></span></div>
+<div class="st"><span class="v">驗價值</span><span><span class="q">對方能量化、能驗收嗎？</span></span></div>
+<div class="st"><span class="v">賣信任</span><span><span class="q">賣產品，還是「非你不可」？</span> <span class="x">求長期，不求當下</span></span></div>
+<div class="mantra">聽想要 → 挖需要 → 三問 → 驗價值 → 賣信任</div>
+</details>
+
+<div class="keys">
+🔤 <b>5W1H</b>　誰・何事・何時・何地・為何・如何<br>
+🏛️ <b>蘇格拉底六型</b>　澄清・假設・證據・觀點・後果・問題本身
+</div>
+
+</body></html>
